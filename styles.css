@@ -1,0 +1,69 @@
+body {
+    color: white;
+    background: #305c30;
+    margin: 0px;
+    font-family: "Cormorant Garamond", serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(155, 255, 146);
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(112, 255, 99);
+}
+
+.chamada {
+
+    background: rgb(14, 49, 0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.categoria-vídeo {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-vídeo img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-vídeo img:hover {
+opacity: 1.0;
+border: 2px solid rgb(0, 0, 0);
+}
+
+.categoria h2{
+    color: rgb(122, 253, 110)
+}
+
+.tentei {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
